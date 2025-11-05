@@ -23,7 +23,6 @@ app.use(
 
 app.use(securityMiddleware);
 
-
 app.get('/', (req, res) => {
   logger.info('Hello from Acquisitions!');
   res.status(200).send('Hello from Acquisitions!');
